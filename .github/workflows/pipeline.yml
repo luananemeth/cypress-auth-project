@@ -1,4 +1,4 @@
-name: Cypress API Test
+name: Teste de API - Cypress
 on:
   pull_request:
     branches: [master]
@@ -8,5 +8,5 @@ jobs:
     steps:
       - name: Clonar o projeto
         uses: actions/checkout@v4
-      - name: Cypress run
+      - name: Executar o Cypress
         uses: cypress-io/github-action@v6
