@@ -1,7 +1,7 @@
-name: Teste de API - Cypress
+name: Agendamento - Teste de API Cypress
 on:
-  pull_request:
-    branches: [master]
+  schedule:
+    - cron: "* * * * *"
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
