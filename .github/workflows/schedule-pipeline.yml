@@ -1,7 +1,7 @@
 name: Agendamento - Teste de API Cypress
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "30 11-12 * * 1-5"
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
